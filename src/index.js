@@ -1,4 +1,5 @@
-import "./styles.css"
+import css from "../src/styles.css";
 
 
 
+console.log('xxx');
