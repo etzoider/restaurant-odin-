@@ -59,7 +59,7 @@ navButton.addEventListener('click', () =>  goToHome(content, refresh));
 navButton2.addEventListener('click', () => goToMenu(content, refresh));
 navButton3.addEventListener('click', () =>  goToAbout(content, refresh));
 
-goToAbout(content, refresh);
+goToHome(content, refresh);
 
 
 

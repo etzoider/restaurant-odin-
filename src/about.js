@@ -8,8 +8,12 @@ export default function goToAbout(parent, refresh) {
 
     const text = document.createElement('div');
     text.classList.add('text');
-    text.textContent = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-
+    text.textContent = "Since he started cooking at the young age of 3, Chef King John Unn had the dream of get together the most snobbish cooks and serve wannabe rich hipsters the most overpriced dishes available."
+    
+    const text2 = document.createElement('div');
+    text2.classList.add('text2');
+    text2.textContent = "That was the birth of Maillard"
+    
 
     const contact = document.createElement('span');
     const icon1 = document.createElement('i');
@@ -28,9 +32,10 @@ export default function goToAbout(parent, refresh) {
     contact.appendChild(icon4);
 
     const image = document.createElement('img');
-    image.src = 'src/images/about/about.jpg'
+    image.src = 'src/images/about/king2.jpg'
 
     about.appendChild(text);
+    about.appendChild(text2);
     about.appendChild(contact);
     about.appendChild(image);
 

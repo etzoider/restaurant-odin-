@@ -32,5 +32,6 @@ export default function goToHome(parent, refresh) {
 
     home.appendChild(homeText);
     home.appendChild(homePic);
-    setTimeout(() => parent.appendChild(home), 100);
+
+    parent.appendChild(home)
 }
