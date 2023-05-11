@@ -1,7 +1,8 @@
 
 
 
-export default function goToHome(parent) {
+export default function goToHome(parent, refresh) {
+    refresh('home');
     const home = document.createElement('div');
     const homeText = document.createElement('div');
     const homePic = document.createElement('div');
@@ -31,6 +32,5 @@ export default function goToHome(parent) {
 
     home.appendChild(homeText);
     home.appendChild(homePic);
-    setTimeout(() => parent.appendChild(home), 500);
-
+    setTimeout(() => parent.appendChild(home), 100);
 }
