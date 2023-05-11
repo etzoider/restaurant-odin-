@@ -20,7 +20,7 @@ export default function goToHome(parent, refresh) {
     line1.textContent = 'The highest quality ingredients.';
     line2.textContent = 'No seed oils. No margarine.';
     line3.textContent = 'All fresh and natural.';
-    line4.textContent = 'Serving the best customers since 2309 B.C';
+    line4.textContent = 'Serving the best customers since a bunch of time ago.';
     line5.textContent = 'Maillard!';
 
     homeText.appendChild(line1);
